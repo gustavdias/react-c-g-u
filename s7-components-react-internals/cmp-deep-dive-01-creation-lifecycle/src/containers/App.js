@@ -5,6 +5,7 @@ import Persons from '../components/Persons/Persons';
 import Cockpit from '../components/Cockpit/Cockpit';
 
 class App extends Component {
+  //when you add a constructor, you have to add super(props) to execute the constructor of the component you are extending.
   constructor(props) {
     super(props);
     console.log('[App.js] constructor');
